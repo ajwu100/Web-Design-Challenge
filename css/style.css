@@ -1,0 +1,103 @@
+.box {
+    height: 620px;
+    padding: 20px;
+    color: rgb(22, 28, 112);
+    background: rgb(241, 236, 189);
+  }
+
+.box1 {
+    height: 700px;
+    padding: 20px;
+    color: rgb(22, 28, 112);
+    background: rgb(189, 210, 241);
+  }
+
+.box4 {
+    height: 700px;
+    width: 450px;
+    position: right;
+}
+
+#intro-image {
+    padding: 10px ;  
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+#link-image {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#data-image {
+  margin: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 500px;
+  position: center;
+}
+#data-image2 {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 300px;
+    position: left;
+  }
+  
+
+.thumbnail{
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 100px;
+  position: relative;
+}
+body {
+  padding: 10px ;
+  margin: 20px;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 160%;
+  color: rgb(22, 28, 112); 
+  text-align: left;
+}
+
+h1 {
+  padding: 10px 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-size: 30px;
+  color: rgb(22, 28, 112);
+  text-align: left;
+}
+
+h2 {
+    padding: 10px 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(22, 28, 112);
+    text-align: left;
+  }
+
+figcaption {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 99px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 100%;
+  color: rgb(22, 28, 112);
+  text-align: left;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visualizations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../html/maxtemp.html">Maximum Temperature</a>
+                        <a class="dropdown-item" href="../html/humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="../html/cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="../html/windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/comparison.html">Comparison</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!--First Column in this Row-->
+            <div class="col-md-8">
+                <div class="box1">
+                    <h1><strong>Humidity</strong></h1>
+                    <img id="data-image" src="../Resources/images/Fig2.png" />
+                    <figcaption><em> Humidity ranges from 40 to 100%. The distance from the Equator (or 0 degree
+                            Latitude) does not impact humidity. There are no differences between the Southern and
+                            Northern Hemispheres.</em></figcaption>
+                </div>
+            </div>
+            <!--Second Column in this Row-->
+            <div class="col-md-4">
+                <div class="box">
+                    <h1>Visualizations</h1>
+                    <div class="thumbnail">
+                        <img id="link-image" src="../Resources/images/Fig1.png">
+                        <a target="_blank" href="../html/maxtemp.html">Max Temperature</a>
+                    </div>
+                    <div class="thumbnail">
+                        <img id="link-image" src="../Resources/images/Fig2.png" />
+                        <a target="_blank" href="../html/humidity.html">Humidity</a>
+                    </div>
+                    <div class="thumbnail">
+                        <img id="link-image" src="../Resources/images/Fig3.png" />
+                        <a target="_blank" href="../html/cloudiness.html">Cloudiness</a>
+                    </div>
+                    <div class="thumbnail">
+                        <img id="link-image" src="../Resources/images/Fig4.png">
+                        <a target="_blank" href="../html/windspeed.html">Wind Speed</a>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+
+</html>
